@@ -1,0 +1,36 @@
+.nav-wrapper {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.chart-header {
+  order: 0;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.chart-sub-header {
+  order: 1;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.chart {
+  order: 2;
+}
+
+.chart-buttons {
+  order: 3;
+}

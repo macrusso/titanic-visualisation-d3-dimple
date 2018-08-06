@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper blue darken-3">
+      <span class="brand-logo center">Titanic survivors data visualization in D3</span>
+    </div>
+  </nav>
+  <div class="container">
+
+    <div class="chart-wrapper">
+      <h4 class="chart-header">Survivors by Class</h4>
+      <h6 class="chart-sub-header" id='survivorsByClassSpan'></h6>
+      <div class="chart-buttons" id='survivorsByClassButtons'></div>
+      <div class="chart" id='survivorsByClass'></div>
+    </div>
+
+    <div class="chart-wrapper">
+      <h4 class="chart-header">Survivors by Age</h4>
+      <h6 class="chart-sub-header" id='survivorsByAgeSpan'></h6>
+      <div class="chart-buttons" id='survivorsByAgeButtons'></div>
+      <div class="chart" id='survivorsByAge'></div>
+    </div>
+
+    <div class="chart-wrapper">
+      <h4 class="chart-header">Passengers by Gender</h4>
+      <h6 class="chart-sub-header" id='passengersByGenderSpan'></h6>
+      <div class="chart-buttons" id='passengersByGenderButtons'></div>
+      <div class="chart" id='passengersByGender'></div>
+    </div>
+
+    <div class="chart-wrapper">
+      <h4 class="chart-header">Passengers by Embarked</h4>
+      <h6 class="chart-sub-header" id='passengersByEmbarkedSpan'></h6>
+      <div class="chart-buttons" id='passengersByEmbarkedButtons'></div>
+      <div class="chart" id='passengersByEmbarked'></div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">
+                <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                Reddit
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Copyright
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="bar.js"></script>
+  <script type="module" src="pie.js"></script>
+</body>
+
+</html>
