@@ -23,4 +23,4 @@ Then in your command line run:
 ```
 http-server './path-to-location-where-you-cloned-repo/titanic-visualization-d3-dimple' -o
 ```
- And just go to [127.0.0.1:8080](http://127.0.0.1:8080/) or you can skip all steps and click [here](#)
+ And just go to [127.0.0.1:8080](http://127.0.0.1:8080/)
